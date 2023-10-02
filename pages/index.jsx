@@ -8,7 +8,7 @@ import { useState } from "react";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css"; // Import the CSS
 import About from "@/components/About";
-import Footer from "@/components/common/Footer";
+import Footer from "@/components/common/footer";
 import 'aos/dist/aos.css'; // You can also use aos.css here, if you prefer.
 import AOS from 'aos';
 import { useEffect } from "react";
