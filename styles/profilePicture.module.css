@@ -1,0 +1,17 @@
+.profileImage {
+  display: none;
+  /* width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #e0f780; */
+}
+
+@media screen and (min-width: 992px) {
+  .profileImage {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #e0f780;
+  }
+}
