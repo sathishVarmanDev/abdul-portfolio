@@ -30,13 +30,15 @@ export default function Portfolio() {
             href={link}
             target='_blank'
             rel="noopener noreferrer"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
+            // onMouseOver={() => setIsHovered(true)}
+            // onMouseOut={() => setIsHovered(false)}
           >
-            {isHovered ?
-              <FontAwesomeIcon icon={faGithub} beatFade size="2xl" style={{ color: "#eef3db", }} /> :
-              <FontAwesomeIcon icon={faGithub} size="2xl" style={{ color: "#eef3db", }} />
-              }
+            <FontAwesomeIcon
+              className={`${styles.githubIcon}`}
+              icon={faGithub}
+              size="2xl"
+              style={{ color: "#eef3db", }}
+            />
           </a>
         </div>
       </div>
@@ -50,7 +52,7 @@ export default function Portfolio() {
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 700, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
+      once: true, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     });

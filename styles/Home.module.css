@@ -20,6 +20,7 @@
   align-items: center;
   background-color: var(--background-color-two);
   width: 100%;
+  overflow: hidden;
 }
 
 .homepageContainer {
