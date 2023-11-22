@@ -27,26 +27,27 @@ export default function About() {
                     <p className={`${styles.aboutSubHeader}`} data-aos="fade-up" data-aos-delay="300">Education</p>
                     <div className={`${styles.aboutContent}`} data-aos="fade-up" data-aos-delay="600">
                         <p className={`${styles.aboutTitle}`}>Frontend Developer Career Path</p>
-                        <p className={`${styles.aboutProvider}`}>Scrimba</p>
+                        <p className={`${styles.aboutProvider}`}>Udemy</p>
                         <p className={`${styles.aboutDescription}`}>During the course, I learned HTML, CSS, Bootstrap, JavaScript & ReactJS. By using these skills, I developed indie projects like MoviePitch: ChatGPT For Movies, Meme Generator, Notes App, Tenzies Game, Speed Typing Game & PicSome: e-commerce app.</p>
                     </div>
                     <div className={`${styles.aboutContent}`} data-aos="fade-up" data-aos-delay="600">
-                        <p className={`${styles.aboutTitle}`}>Frontend Developer Career Path</p>
-                        <p className={`${styles.aboutProvider}`}>Scrimba</p>
-                        <p className={`${styles.aboutDescription}`}>During the course, I learned HTML, CSS, Bootstrap, JavaScript & ReactJS. By using these skills, I developed indie projects like MoviePitch: ChatGPT For Movies, Meme Generator, Notes App, Tenzies Game, Speed Typing Game & PicSome: e-commerce app.</p>
+                        <p className={`${styles.aboutTitle}`}>Bachelors Degree in Computer Science</p>
+                        <p className={`${styles.aboutProvider}`}>Ghulam Ishaq Khan Institute of Engineering</p>
+                        <p className={`${styles.aboutDescription}`}>Completed my bachelors in computer science. I had an opportunity to learn from some amazing professors and work on projects with excellent students. My favorite courses were: Object-oriented programming, Software Engineering, Discrete mathematics, Data Structures</p>
                     </div>
                 </div>
                 <div className={`${styles.aboutSubContainer}`}>
                     <p className={`${styles.aboutSubHeader}`} data-aos="fade-up" data-aos-delay="300">Experience</p>
                     <div className={`${styles.aboutContent}`} data-aos="fade-up" data-aos-delay="600">
-                        <p className={`${styles.aboutTitle}`}>Frontend Developer Career Path</p>
-                        <p className={`${styles.aboutProvider}`}>Scrimba</p>
-                        <p className={`${styles.aboutDescription}`}>During the course, I learned HTML, CSS, Bootstrap, JavaScript & ReactJS. By using these skills, I developed indie projects like MoviePitch: ChatGPT For Movies, Meme Generator, Notes App, Tenzies Game, Speed Typing Game & PicSome: e-commerce app.</p>
+                        <p className={`${styles.aboutTitle}`}>
+                            Senior Frontend Developer</p>
+                        <p className={`${styles.aboutProvider}`}>Lukuku</p>
+                        <p className={`${styles.aboutDescription}`}>Working as a React/NextJS developer. Creating web animations using React Spring. Using latest styling libraries like TailwindCSS and styled components. Using latest statement management libraries like React query/tanstack query, Jotai and Zustand.</p>
                     </div>
                     <div className={`${styles.aboutContent}`} data-aos="fade-up" data-aos-delay="600">
-                        <p className={`${styles.aboutTitle}`}>Frontend Developer Career Path</p>
-                        <p className={`${styles.aboutProvider}`}>Scrimba</p>
-                        <p className={`${styles.aboutDescription}`}>During the course, I learned HTML, CSS, Bootstrap, JavaScript & ReactJS. By using these skills, I developed indie projects like MoviePitch: ChatGPT For Movies, Meme Generator, Notes App, Tenzies Game, Speed Typing Game & PicSome: e-commerce app.</p>
+                        <p className={`${styles.aboutTitle}`}>Senior Software Engineer</p>
+                        <p className={`${styles.aboutProvider}`}>QisstPay</p>
+                        <p className={`${styles.aboutDescription}`}>Joined the team that had 5 engineers. Left the team when company had 150 employees. 10,000 plus sales. 1000 clients/merchants. Leading a team of young frontend developers as well as giving Jira training to manage new ideas. Converting figma designs into reality using Reactjs, React Native and Nextjs.</p>
                     </div>
                 </div>
             </div>

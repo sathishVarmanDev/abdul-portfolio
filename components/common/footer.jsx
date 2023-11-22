@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-    const link = "https://github.com/sathishVarmanDev"
+    const githublink = "https://github.com/AbdulMutaal"
+    const linkedinlink = "https://www.linkedin.com/in/abdul-mutaal-azhar-729817103/"
 
     const [isGithubHovered, setIsGithubHovered] = useState(false)
     const [isLinkedinHovered, setIsLinkedinHovered] = useState(false)
@@ -18,7 +19,7 @@ export default function Footer() {
                 <div className={`${styles.contentRight}`}>
                     <a
                         className='githubIcon'
-                        href={link}
+                        href={githublink}
                         target='_blank'
                         rel="noopener noreferrer"
                         onMouseEnter={() => setIsGithubHovered(true)}
@@ -32,7 +33,7 @@ export default function Footer() {
 
                     <a
                         className='linkedinIcon'
-                        href={link}
+                        href={linkedinlink}
                         target='_blank'
                         rel="noopener noreferrer"
                         onMouseEnter={() => setIsLinkedinHovered(true)}
